@@ -12,7 +12,7 @@
   linkedin: "furkanaldemir",
   //custom-1: (icon: "", text: "example", link: "https://example.com"),
   //gitlab: "mintyfrankie",
-  //homepage: "jd.me.org",
+  homepage: "furkan.github.io",
   //orcid: "0000-0000-0000-0000",
   //researchgate: "John-Doe",
   //extraInfo: "",
@@ -52,7 +52,7 @@
 /* Layout Setting */
 #let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
+#let profilePhoto = "../src/furkan.png" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 

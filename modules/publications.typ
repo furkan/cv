@@ -4,9 +4,6 @@
 
 #cvPublication(
   bibPath: "../src/publications.bib",
-  keyList: (
-    "smith2020",
-    "jones2021",
-    "wilson2022"),
+  keyList: ("aldemir2021"),
   refStyle: "apa"  
 )
