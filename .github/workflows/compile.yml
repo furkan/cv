@@ -1,7 +1,7 @@
 name: Compile and Commit CV PDF
 
 on:
-  push: {}
+  push: main
 
 jobs:
   build:
@@ -17,6 +17,7 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
+      - run: mkdir ./output
       - run: typst compile ./cv.typ ./output/CV.pdf --font-path ./src/fonts
 
       - name: Commit CV PDF
