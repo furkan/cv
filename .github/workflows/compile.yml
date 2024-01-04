@@ -1,32 +1,26 @@
-name: Check PDF Compilation
+name: Compile and Commit CV PDF
 
 on:
   push: {}
-  pull_request: {}
 
 jobs:
   build:
-    name: compile-check
+    name: compile-commit-cv-pdf
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: 'recursive'
 
       - name: Setup Typst
-        uses: yusancky/setup-typst@v2.0.1
-        id: setup-typst
-        with:
-          version: 'latest'
+        uses: typst-community/setup-typst@v3
 
-      - run: typst compile cv.typ --font-path ./src/fonts
-      - run: typst compile letter.typ --font-path ./src/fonts
+      - run: typst compile ./cv.typ ./output/CV.pdf --font-path ./src/fonts
 
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+      - name: Commit CV PDF
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          name: output
-          path: ./*.pdf
-          if-no-files-found: error
+          commit_message: Compile and Commit PDF
+          file_pattern: 'output/CV.pdf'
