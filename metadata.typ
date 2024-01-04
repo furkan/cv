@@ -1,15 +1,15 @@
 // NOTICE: Copy this file to your root folder.
 
 /* Personal Information */
-#let firstName = "John"
+#let firstName = "Furkan"
 
-#let lastName = "Doe"
+#let lastName = "Aldemir"
 
 #let personalInfo = (
-  github: "mintyfrankie",
-  phone: "+33 6 12 34 56 78",
-  email: "john.doe@me.org",
-  linkedin: "johndoe",
+  github: "furkan",
+  // phone: "+33 6 12 34 56 78",
+  email: "furkanaldemir@gmail.com",
+  linkedin: "furkanaldemir",
   //custom-1: (icon: "", text: "example", link: "https://example.com"),
   //gitlab: "mintyfrankie",
   //homepage: "jd.me.org",
@@ -50,7 +50,7 @@
 )
 
 /* Layout Setting */
-#let awesomeColor = "skyblue" // Optional: skyblue, red, nephritis, concrete, darknight
+#let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
 #let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
 
