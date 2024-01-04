@@ -10,8 +10,11 @@
     description: list(
       [Lead a tech team of six engineers and ensured efficiency from individuals.],
       [Oversaw development of a telemetry server for deployed devices.],
+      [Operated accumulation and distribution of know-how in the form of clear documentation.],
+      [Improved environment setup speeds with containerization via Docker and distribution via AWS ECR.],
+      [Reduced runtime errors and improved consistency across projects by introducing checks on code changes with GitHub Actions.],
     ),
-    tags: ("Leadership", "Architect")
+    tags: ("Leadership", "Docker", "GitHub Actions", "AWS")
 )
 
 #cvEntry(
@@ -20,16 +23,14 @@
     date: [Mar 2022 - Oct 2023],
     location: [Ankara, TR],
     description: list(
-      [Refactored and maintained a legacy embedded AI camera system.],
-      [Owned and automated client managements of reverse SSH and VPN servers, for deployed devices.],
-      [Investigated, figured out, and documented how to use the TAK interface.],
-      [Accumulated know-how in the form of clear documentation.],
-      [Helped renovate the website of the company.],
-      [Improved setup speeds of a project by containerizing the installation of drivers.],
-      [Maintained a data extraction pipeline that uses an undocumented third party API.],
+      [Refactored and maintained a legacy embedded AI camera system that is deployed on Jetsons.],
+      [Owned responsibility for reverse SSH and VPN servers for deployed devices and CVAT servers for annotation purposes.],
+      [Investigated, figured out, and documented how to use the Team Awareness Kit (TAK) interface.],
+      [Maintained and debugged a legacy data extraction pipeline that uses an undocumented third party API.],
       [Constructed projects to convert image segmentation results into more usable formats.],
+      [Helped renovate the company website.],
     ),
-    tags: ("PyTorch", "Docker", "AWS", "GitHub Actions")
+    tags: ("PyTorch", "Web scraping", "React / Vue", "Legacy codebase enjoyer")
 )
 
 #cvEntry(
@@ -42,7 +43,8 @@
         - Application of Bayesian Estimation Methods to Electrocardiographic Imaging: Prior Model Selection and Reduction of Noise Effects
         - Performance Evaluation of Noninvasive Electrocardiographic Imaging for the Localization of Premature Ventricular Contractions from Clinical Data
       ]],
-    )
+    ),
+    tags: ("MATLAB", "Digital signal processing")
 )
 
 
