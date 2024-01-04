@@ -3,25 +3,25 @@
 #cvSection("Education")
 
 #cvEntry(
-    title: [Master of Data Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Master of Science in Electrical - Electronics Engineering],
+    society: [Middle East Technical University],
+    date: [2020 - 2023],
+    location: [Ankara, TR],
+    // logo: "../src/logos/ucla.png",
     description: list(
-      [Thesis: Predicting Customer Churn in Telecommunications Industry using Machine Learning Algorithms and Network Analysis],
-      [Course: Big Data Systems and Technologies #hBar() Data Mining and Exploration #hBar() Natural Language Processing]
+      [Thesis: Geometric model error reduction in inverse problem of electrocardiography],
+      [Course: CENG501 Deep Learning],
+      [CGPA: 3.11/4.00]
     )
 )
 
 #cvEntry(
-    title: [Bachelors of Science in Computer Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Bachelors of Science in Electrical - Electronics Engineering],
+    society: [Middle East Technical University],
+    date: [2016 - 2020],
+    location: [Ankara, TR],
+    // logo: "../src/logos/ucla.png",
     description: list(
-      [Thesis: Exploring the Use of Machine Learning Algorithms for Predicting Stock Prices: A Comparative Study of Regression and Time-Series Models],
-      [Course: Database Systems #hBar() Computer Networks #hBar() Software Engineering #hBar() Artificial Intelligence]
+      [CGPA: 3.53/4.00]
     )
 )
