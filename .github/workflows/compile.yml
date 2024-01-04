@@ -9,6 +9,8 @@ jobs:
   build:
     name: compile-commit-cv-pdf
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
