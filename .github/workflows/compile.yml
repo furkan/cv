@@ -1,7 +1,9 @@
 name: Compile and Commit CV PDF
 
 on:
-  push: main
+  push:
+    branches:
+      - main
 
 jobs:
   build:
