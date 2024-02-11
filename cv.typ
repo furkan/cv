@@ -4,7 +4,7 @@
 #cvHeader(hasPhoto: true, align: left)
   #autoImport("experience")
   #autoImport("education")
-  // #autoImport("projects")
+  #autoImport("projects")
   // #autoImport("certificates")
   #autoImport("publications")
   #autoImport("skills")
