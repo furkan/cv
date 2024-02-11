@@ -4,7 +4,7 @@
 
 #cvSkill(
   type: [Languages],
-  info: [German (Beginner) #hBar() Spanish (Beginner) #hBar() Music (Wants to begin)]
+  info: [Turkishs (Native) #hBar() English (Advanced) #hBar() German (Beginner) #hBar() Spanish (Beginner)]
 )
 
 #cvSkill(
