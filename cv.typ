@@ -2,7 +2,8 @@
 #show: layout
 
 #cvHeader(hasPhoto: true, align: left)
-  #autoImport("experience")
+  #autoImport("summary")
+  #autoImport("experience") \
   #autoImport("education")
   #autoImport("projects")
   // #autoImport("certificates")
