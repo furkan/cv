@@ -14,7 +14,8 @@
         - Oversaw development of a telemetry server for deployed devices.
         - Improved environment setup speeds with containerization via Docker and distribution via AWS ECR.
         - Reduced runtime errors and improved consistency across projects by introducing checks on code changes with GitHub Actions.
-        - Owned responsibility for reverse SSH and VPN servers for deployed devices and CVAT servers for annotation purposes.]],
+        - Owned responsibility for reverse SSH and VPN servers for deployed devices and CVAT servers for annotation purposes.
+        - Managed and maintained Django-based websites for internal tools.]],
     ),
     // tags: ("Leadership", "Docker", "GitHub Actions", "AWS")
 )
