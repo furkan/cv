@@ -3,12 +3,25 @@
 #cvSection("Experience")
 
 #cvEntry(
+    title: [Machine Learning Engineer],
+    society: [Archangel Imaging],
+    date: [Sep 2024 - Present],
+    location: [Oxford, UK],
+    description: list(
+      [Developed smart camera systems, utilizing Python, CUDA, Jetsons.],
+      [Delivered and maintained internal/external servers for telemetry, communication, and ML model improvements, using AWS, Docker, MLflow.],
+      [Oversaw development of mobile Android applications for remote configuration of devices.],
+    ),
+    // tags: ("Leadership", "Docker", "GitHub Actions", "AWS")
+)
+
+#cvEntry(
     title: [Team Lead],
     society: [Novit.AI],
-    date: [Oct 2023 - Present],
-    location: [Ankara, TR],
+    date: [Oct 2023 - Sep 2024],
+    location: [London, UK - Remote],
     description: list(
-      [Lead a tech team of seven engineers.],
+      [Lead a tech team of six engineers.],
       [Operated accumulation and distribution of know-how in the form of clear documentation.],
       [Cloud / DevOps: (FastAPI, Docker, GitHub Actions, AWS EC2 & ECR & S3 & Lambda & DynamoDB & Lightsail) #[
         - Oversaw development of a telemetry server for deployed devices.
@@ -24,7 +37,7 @@
     title: [Machine Learning Engineer],
     society: [Novit.AI],
     date: [Mar 2022 - Oct 2023],
-    location: [Ankara, TR],
+    location: [London, UK - Remote],
     description: list(
       [Renovated the company website and made it easier to create and modify its content. (React / Vue)],
       [Ground Observation Unit: (NVIDIA Jetson, TensorRT, GPU, Docker, TAK, Edge AI) #[
@@ -58,7 +71,6 @@
     ),
     // tags: ("MATLAB", "Digital signal processing")
 )
-
 
 #cvEntry(
     title: [Machine Learning Engineer Intern],
