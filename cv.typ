@@ -2,8 +2,8 @@
 #show: layout
 
 #set page(margin: (
-  top: 2cm,
-  bottom: 2cm,
+  top: 1.3cm,
+  bottom: 1.3cm,
 ))
 
 #cvHeader(hasPhoto: true, align: left)

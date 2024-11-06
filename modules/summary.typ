@@ -2,6 +2,13 @@
 
 #cvSection("Summary")
 
-In my present role, I oversee the development of our telemetry server, manage a group of six engineers, and make sure that all of our procedures are well documented. In my previous role as a Machine Learning Engineer, I managed VPN and reverse SSH servers, maintained and refactored legacy AI systems, and trained object identification models using PyTorch. I am well versed Python, Docker, AWS, Git, and GitHub Actions. 
+ML / Backend / DevOps Engineer with proven ability to lead cross-functional & international teams, deliver automations to save developer time and sanity, and maintain cloud services.
 
-I am passionate about delivering value by solving real-world challenges, and I am committed to collaboration, continuous learning, and delivering high-quality results. My diverse experiences enable me to bring valuable perspectives to any team.
+Skills:
+Containerization (Docker)
+CI/CD (GitHub Actions, GitLab Pipelines)
+Cloud (AWS, GCP, Oracle)
+Rest APIs (Fastapi, Flask, Django)
+ML (Pytorch, Mlflow, Tensorrt, Cuda)
+
+I am passionate about delivering value by solving real-world challenges, and I am committed to collaboration, continuous learning, and delivering high-quality results.
